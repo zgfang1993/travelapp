@@ -1,0 +1,23 @@
+<ion-view view-title="附近餐馆">
+  <ion-content>
+
+    <div class="list card" ng-repeat="restaurant in restaurants">
+      <div class="item">
+        <h2>{{restaurant.name}}</h2>
+        <p>{{restaurant.address}}, {{restaurant.city}}</p>
+      </div>
+      <div class="item item-image">
+        <img ng-src="{{restaurant.image_url}}" />
+      </div>
+    </div>
+    <!--无限滚动-->
+    <!-- ng-if 在加载完所有数据之后禁用无线滚动 immediate-check初始化时禁用无线滚动-->
+    <ion-infinite-scroll on-infinite="getRestaurants()" ng-if="total > page" immediate-check="false"></ion-infinite-scroll>
+  
+  </ion-content>
+</ion-view>
+
+<!--如果组件和视图的距离小于某个值(默认1%)，就会调用on-infinite属性声明的方法。
+    由于无限滚动的机制限制，初始化的时候会触发两次载入getRestaurants()方法，所以要在初始化的时候禁用无线滚动。
+
+-->

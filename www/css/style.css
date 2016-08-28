@@ -1,0 +1,27 @@
+.bar.bar-positive{
+    border-color: #7CB633;
+    background-color: #81b93a;
+}
+*{
+    font-family: "微软雅黑";
+}
+a.item,.item{
+    color: #9C9C9C;
+    font-size: 14px;
+}
+.start{
+    /* position: absolute;
+    right:35%;
+    bottom: 15%; */
+    margin: 0 auto;
+    bottom: 80px;
+    display: block;
+    width: 100px;
+    min-height: 30px;
+    line-height: 30px;
+    border: 1px solid #81b93a;
+    background: #fff;
+    color: #81b93a;
+    border-radius: 5px;
+    font-size: 14px;
+}

@@ -1,0 +1,28 @@
+#tour-view .slider {
+  height: 100%;
+}
+#tour-view .slider-slide {
+  padding-top: 100px;
+  text-align: center;
+}
+#tour-view .icon-slide {
+  font-size: 15em;
+  display: inline-block;
+}
+#tour-view h3{
+    font-size: 16px;
+    font-family: "微软雅黑";
+}
+.start{    /*开始按钮*/
+    margin: 0 auto;
+    bottom: 65px;
+    display: block;
+    width: 100px;
+    min-height: 30px;
+    line-height: 30px;
+    border: 1px solid #81b93a;
+    background: #fff;
+    color: #81b93a;
+    border-radius: 5px;
+    font-size: 14px;
+}
