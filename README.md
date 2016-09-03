@@ -5,7 +5,7 @@ Angular ionic demo
 
 >界面
 
- ![image](http://github.com/zgfang1993/travelapp/readmepic/welcome.jpg)
+ ![image](https://github.com/zgfang1993/travelapp/blob/master/readmepic/welcome.jpg)
 
 
 
